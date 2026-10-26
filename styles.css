@@ -1,0 +1,4 @@
+:root { --gap: 1rem; --brand: #0b4f6c;}
+.card { display: grid; gap: var(--gap); padding: 1rem; border: 1px solid #ccc; border-radius: 8px;}
+@media (max-width: 600px) {.card { grid-template-columns: 1fr;}}
+button:focus-visible { outline: 3px solid var(--brand); outline-offset: 2px;}
